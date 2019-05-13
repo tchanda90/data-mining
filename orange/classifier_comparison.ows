@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="" version="2.0">
+	<nodes>
+		<node id="0" name="Datasets" position="(295.0, 198.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owdatasets.OWDataSets" title="Datasets" version="" />
+		<node id="1" name="Tree" position="(99.0, 275.0)" project_name="Orange3" qualified_name="Orange.widgets.model.owtree.OWTreeLearner" title="Tree" version="" />
+		<node id="2" name="Random Forest" position="(100.0, 364.0)" project_name="Orange3" qualified_name="Orange.widgets.model.owrandomforest.OWRandomForest" title="Random Forest" version="" />
+		<node id="3" name="Naive Bayes" position="(101.0, 459.0)" project_name="Orange3" qualified_name="Orange.widgets.model.ownaivebayes.OWNaiveBayes" title="Naive Bayes" version="" />
+		<node id="4" name="Test &amp; Score" position="(437.0, 353.0)" project_name="Orange3" qualified_name="Orange.widgets.evaluate.owtestlearners.OWTestLearners" title="Test &amp; Score" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Data" sink_node_id="4" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="1" sink_channel="Learner" sink_node_id="4" source_channel="Learner" source_node_id="1" />
+		<link enabled="true" id="2" sink_channel="Learner" sink_node_id="4" source_channel="Learner" source_node_id="2" />
+		<link enabled="true" id="3" sink_channel="Learner" sink_node_id="4" source_channel="Learner" source_node_id="3" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="literal" node_id="0">{'auto_commit': True, 'controlAreaVisible': True, 'header_state': b'\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\xfa\x00\x00\x00\x07\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00W\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00$\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\xd2\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00t\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x8f\x00\x00\x02w\x00\x00\x00\x06\x00\x00\x00\x1a\x00\x00\x03\x89\x00\x00\x02q\x00\x00\x00\x00\x00\x00\x00\x00\x048', 'selected_id': 'core\\attrition-train.tab', 'splitter_state': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x01,\x00\x00\x00\xc8\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', '__version__': 1}</properties>
+		<properties format="literal" node_id="1">{'auto_apply': True, 'binary_trees': True, 'controlAreaVisible': True, 'learner_name': 'Tree', 'limit_depth': False, 'limit_majority': True, 'limit_min_internal': False, 'limit_min_leaf': True, 'max_depth': 100, 'min_internal': 5, 'min_leaf': 2, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01.\x00\x00\x01R\x00\x00\x00\x06\x00\x00\x00\x1a\x00\x00\x01(\x00\x00\x01L\x00\x00\x00\x00\x00\x00\x00\x00\x048', 'sufficient_majority': 95, '__version__': 1}</properties>
+		<properties format="literal" node_id="2">{'auto_apply': True, 'controlAreaVisible': True, 'index_output': 0, 'learner_name': 'Random Forest', 'max_depth': 3, 'max_features': 5, 'min_samples_split': 5, 'n_estimators': 500, 'random_state': 123, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x01n\x00\x00\x00\xa2\x00\x00\x02\xca\x00\x00\x01\xf6\x00\x00\x01t\x00\x00\x00\xbc\x00\x00\x02\xc4\x00\x00\x01\xf0\x00\x00\x00\x00\x00\x00\x00\x00\x048', 'use_max_depth': False, 'use_max_features': False, 'use_min_samples_split': True, 'use_random_state': True, '__version__': 1}</properties>
+		<properties format="literal" node_id="3">{'auto_apply': True, 'controlAreaVisible': True, 'learner_name': 'Naive Bayes', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x01\xcf\x00\x00\x01\n\x00\x00\x02h\x00\x00\x01\x96\x00\x00\x01\xd4\x00\x00\x01 \x00\x00\x02c\x00\x00\x01\x91\x00\x00\x00\x00\x00\x00\x00\x00\x048', '__version__': 1}</properties>
+		<properties format="pickle" node_id="4">gAN9cQAoWBIAAABjb250cm9sQXJlYVZpc2libGVxAYhYDQAAAGN2X3N0cmF0aWZpZWRxAohYBwAA
+AG5fZm9sZHNxA0sDWAkAAABuX3JlcGVhdHNxBEsDWAoAAAByZXNhbXBsaW5ncQVLAFgLAAAAc2Ft
+cGxlX3NpemVxBksJWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQdDMgHZ0MsAAgAAAAAAAAAAAAAA
+AAMXAAABmAAAAAYAAAAaAAADEQAAAZIAAAAAAAAAAAQ4cQhYDAAAAHNob3duX3Njb3Jlc3EJY2J1
+aWx0aW5zCnNldApxCl1xCyhYAgAAAEYxcQxYAwAAAEFVQ3ENWAYAAABSZWNhbGxxDlgJAAAAUHJl
+Y2lzaW9ucQ9YAwAAAE1BRXEQWAIAAABSMnERWAMAAABNU0VxElgCAAAAQ0FxE1gEAAAAUk1TRXEU
+ZYVxFVJxFlgSAAAAc2h1ZmZsZV9zdHJhdGlmaWVkcReIWAsAAABfX3ZlcnNpb25fX3EYSwNYEAAA
+AGNvbnRleHRfc2V0dGluZ3NxGV1xGmNPcmFuZ2Uud2lkZ2V0cy5zZXR0aW5ncwpDb250ZXh0CnEb
+KYFxHH1xHShYBAAAAHRpbWVxHkdB1zZVLVCu3FgGAAAAdmFsdWVzcR99cSAoWA8AAABjbGFzc19z
+ZWxlY3Rpb25xIVgWAAAAKEF2ZXJhZ2Ugb3ZlciBjbGFzc2VzKXEiSv////+GcSNYDAAAAGZvbGRf
+ZmVhdHVyZXEkTkr+////hnElWBUAAABmb2xkX2ZlYXR1cmVfc2VsZWN0ZWRxJolK/v///4ZxJ2gY
+SwN1WAoAAABhdHRyaWJ1dGVzcSgoWAMAAABBZ2VxKUsChnEqWA4AAABCdXNpbmVzc1RyYXZlbHEr
+SwGGcSxYCgAAAERlcGFydG1lbnRxLUsBhnEuWBAAAABEaXN0YW5jZUZyb21Ib21lcS9LAoZxMFgJ
+AAAARWR1Y2F0aW9ucTFLAYZxMlgGAAAAR2VuZGVycTNLAYZxNFgIAAAASm9iTGV2ZWxxNUsChnE2
+WAcAAABKb2JSb2xlcTdLAYZxOFgPAAAASm9iU2F0aXNmYWN0aW9ucTlLAoZxOlgNAAAATWFyaXRh
+bFN0YXR1c3E7SwGGcTxYDQAAAE1vbnRobHlJbmNvbWVxPUsChnE+WAgAAABPdmVyVGltZXE/SwGG
+cUBYEQAAAFBlcmNlbnRTYWxhcnlIaWtlcUFLAoZxQlgRAAAAUGVyZm9ybWFuY2VSYXRpbmdxQ0sC
+hnFEWBAAAABTdG9ja09wdGlvbkxldmVscUVLAYZxRlgRAAAAVG90YWxXb3JraW5nWWVhcnNxR0sC
+hnFIWA4AAABZZWFyc0F0Q29tcGFueXFJSwKGcUpYFwAAAFllYXJzU2luY2VMYXN0UHJvbW90aW9u
+cUtLAoZxTHRxTVgFAAAAbWV0YXNxTilYCgAAAGNsYXNzX3ZhcnNxT1gJAAAAQXR0cml0aW9ucVBL
+AYZxUYVxUnViYXUu
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
