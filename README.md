@@ -1,5 +1,6 @@
 ```diff
-- For the third short assessment, anything that has been discussed in the lecture until then and anything from the exercise from sheet 1 to 9 is relevant. 
+- For the third short assessment, anything that has been discussed in the lecture until then 
+- and anything from the exercise from sheet 1 to 9 is relevant. 
 ```
 
 ### Uploaded exercise 9 https://github.com/tchanda90/data-mining/blob/master/notebooks/finding_optimal_k.ipynb
