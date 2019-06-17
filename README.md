@@ -1,7 +1,5 @@
 ```diff
-- For the third short assessment, anything that has been discussed in the lecture until then 
-- and anything from the exercise from sheet 1 to 9 is relevant, but the focus will be on the
-- more recent lecture content and exercises (sheets 7-9). 
+- I feel like I forgot to mention this about cohesion and separation: Lower values for cohesion and higher values for separation are better.
 ```
 
 ### Uploaded exercise 9 https://github.com/tchanda90/data-mining/blob/master/notebooks/finding_optimal_k.ipynb
