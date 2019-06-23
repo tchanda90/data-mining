@@ -1,8 +1,5 @@
-```diff
-- Vote for questions/concepts to be discussed on the last day. 
-- You may include questions from the lecture, exercises, or the assessment tests.
-- https://forms.gle/s8AEVEcpkPDpW9iM9
-```
+
+### Vote for questions/concepts to be discussed on the last day. You may include questions from the lecture, exercises, or the assessment tests. https://forms.gle/s8AEVEcpkPDpW9iM9
 
 ### Uploaded exercise 9 https://github.com/tchanda90/data-mining/blob/master/notebooks/finding_optimal_k.ipynb
 
