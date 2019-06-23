@@ -1,9 +1,7 @@
 ```diff
-- I feel like I forgot to mention this about cohesion and separation: 
-- Lower values for cohesion and higher values for separation are better, 
-- and they do not have a range. According to the current formulas, the minimum value is 0, 
-- but there is no maximum value. You may scale the cluster cohesion/separation values
-- by diving them by the maximum cohesion/separation value, but this isn't required.
+- Vote for questions/concepts to be discussed on the last day. 
+- You may include questions from the lecture, exercises, or the assessment tests.
+- https://forms.gle/s8AEVEcpkPDpW9iM9
 ```
 
 ### Uploaded exercise 9 https://github.com/tchanda90/data-mining/blob/master/notebooks/finding_optimal_k.ipynb
