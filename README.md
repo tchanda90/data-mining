@@ -1,7 +1,6 @@
 
-```css
-   Announcement: The next class starts at 15:00. Please come early.
-```
+# Announcement: The next class starts at 15:00. Please come early.
+
 
 ## Uploaded iso accuracy lines https://github.com/tchanda90/data-mining/blob/master/notebooks/iso_accuracy_lines.ipynb
 
