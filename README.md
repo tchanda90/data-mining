@@ -1,6 +1,7 @@
 
 # Announcement: The next class starts at 15:00. Please come early.
 
+## Download this notebook to generate your own cluster heatmaps https://github.com/tchanda90/data-mining/blob/master/notebooks/cluster_heatmaps_and_validation.ipynb
 
 ## Uploaded iso accuracy lines https://github.com/tchanda90/data-mining/blob/master/notebooks/iso_accuracy_lines.ipynb
 
