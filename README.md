@@ -1,5 +1,5 @@
 
-# It's been fun guys :) Good Luck!
+# It's been fun guys :) Take care and good luck for the exam!
 
 # One more thing: Learn how to read set notation. Some questions in the exam might be formed using set notation (like in the slides) instead of being given in English, so watch a youtube video on how to read set notation or something. Also, feel free to email me with questions. I know I skipped describing the itemset lattice thing, so if you don't understand it, just email me and I'll tell you how to construct it.
 
