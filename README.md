@@ -3,7 +3,9 @@
 
 # One more thing: Learn how to read set notation. Some questions in the exam might be formed using set notation (like in the slides) instead of being given in English, so watch a youtube video on how to read set notation or something. Also, feel free to email me with questions. I know I skipped describing the itemset lattice thing, so if you don't understand it, just email me and I'll tell you how to construct it.
 
-## Download this notebook to generate your own cluster heatmaps https://github.com/tchanda90/data-mining/blob/master/notebooks/cluster_heatmaps_and_validation.ipynb
+## There was a mistake in the lattice in this notebook https://github.com/tchanda90/data-mining/blob/master/notebooks/frequent_itemsets.ipynb The itemset abde was marked as I (pruned because it doesn't meet minimum support count), but it should have been marked P (pruned because a subset is infrequent). Fixed now.
+
+## Download this notebook to generate cluster heatmaps https://github.com/tchanda90/data-mining/blob/master/notebooks/cluster_heatmaps_and_validation.ipynb
 
 ## Uploaded iso accuracy lines https://github.com/tchanda90/data-mining/blob/master/notebooks/iso_accuracy_lines.ipynb
 
